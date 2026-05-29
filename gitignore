@@ -1,0 +1,99 @@
+.vscode/
+build/
+#>fips
+# this area is managed by fips, do not edit
+.fips-*
+*.pyc
+#<fips
+
+# end sokol .gitinore
+
+# Meson build dirs
+builddir/
+build/
+_build/
+
+# Meson wrap db and downloads
+subprojects/packagecache/
+subprojects/*
+!subprojects/*.wrap
+!subprojects/*.build
+.meson-subproject-wrap-hash.txt
+
+# Meson configure files
+.mesonconfig
+meson-logs/
+meson-private/
+
+
+# Common build artifacts
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+*.lib
+*.a
+*.exe
+*.out
+*.app
+
+# dist folder from epik
+dist/
+
+# IDE-specific directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+*.swm
+*.swl
+*.swk
+*.sw*
+*.suo
+*.user
+*.sln.docstates
+*.userprefs
+*.csproj.user
+*.vcxproj.user
+*.vcxproj.filters
+*.iml
+*.ipr
+*.iws
+.vs/
+.clangd/
+.cache/
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+*.tlog
+*.lastbuildstate
+*.ilk
+*.pdb
+*.ipch
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+
+# Other generated files
+*.d
+*.manifest
+*.res
+*.dep
+*.iobj
+*.ipdb
+*.recipe
+*.nativecodeanalysis.xml
+*.obj.enc
+*.idb
+*.exp
+*.pch
+*.metagen
+*.aps
+*.ncb
+*.opendb
+*.db
